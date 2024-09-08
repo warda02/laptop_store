@@ -1,0 +1,44 @@
+name: harbor_eproject
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0' # Update to match your Flutter SDK version range
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  shared_preferences: ^2.0.7
+  flutter_secure_storage: ^4.2.0
+  http: ^1.2.1
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+  cloud_firestore: ^5.0.1
+  lottie: ^3.1.2
+  image_picker: ^1.1.2
+  image_picker_web: ^4.0.0
+  firebase_storage: ^12.1.0
+  permission_handler: ^11.3.1
+  carousel_slider: ^4.2.1
+  ionicons: ^0.2.2
+  mailer: ^6.1.1
+  flutter_dynamic_icon: ^2.1.0
+  badges: ^3.1.2
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
