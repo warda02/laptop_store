@@ -1,16 +1,28 @@
-# harbor_eproject
+# 💻 Laptop Store — Flutter App
 
-A new Flutter project.
+A feature-rich Flutter e-commerce app for browsing, comparing, and purchasing laptops. Integrated with Firebase for real-time backend services.
 
-## Getting Started
+## ✨ Features
+- 🔐 Firebase Authentication (login/signup)
+- 🛍️ Product listings & browsing
+- ❤️ Wishlist management
+- 🛒 Cart & secure checkout
+- 📦 Order tracking
+- 👤 User profile settings
+- 🛠️ Admin panel for product & order management
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Setup
+```bash
+git clone https://github.com/warda02/laptop_store.git
+cd laptop_store
+flutter pub get
+# Add your google-services.json (Firebase config)
+flutter run
+```
+---
+Made with ❤️ by [Warda Fatima](https://github.com/warda02)
